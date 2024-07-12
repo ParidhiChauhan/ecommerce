@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.1.0/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(120deg, #f6f9fc, #e9ecef);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .card-header {
+            background-color: #ffffff;
+            border-bottom: none;
+        }
+        .card-body {
+            background-color: #f8f9fa;
+        }
+        .btn-block {
+            margin-top: 20px;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="card card-primary">
+        <div class="card-header text-center">
+            <h1>Welcome Admin</h1>
+        </div>
+        <div class="card-body text-center">
+            <p class="lead">Please Login or Register to Continue.</p>
+            <a href="{{ url_for('auth.login') }}" class="btn btn-primary btn-block"><i class="fas fa-sign-in-alt"></i> Admin Login</a>
+            <a href="{{ url_for('auth.register') }}" class="btn btn-secondary btn-block"><i class="fas fa-user-plus"></i> Admin Register</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.1.0/dist/js/adminlte.min.js"></script>
+</body>
+</html>
+

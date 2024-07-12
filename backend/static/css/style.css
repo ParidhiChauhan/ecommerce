@@ -1,0 +1,140 @@
+body {
+    /* Use the correct path relative to your CSS file */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9; /* Fallback color */
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.content-wrapper {
+    min-height: calc(100vh - 60px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+
+     bottom:0 ;
+    width: 100%;
+    bottom: 0;
+
+    text-align: center;
+    padding: 10px 0;
+    background-color: #343a40;
+    color: #ffffff;
+
+    position: fixed;  /* always stay where I put you on the screen */
+    bottom: 0;  /* I'm putting you at the bottom with no space in between */
+    width: 100%;  /* fill the width of your containing element (body) */
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+
+.main-sidebar .nav-icon {
+    font-size: 1.2rem;
+}
+
+
+/* Example of custom CSS to reduce input width */
+.form-control {
+    width: 250px; /* Adjust as needed */
+}
+
+.main-sidebar {
+            
+            background-size: cover;
+            background-position: center;
+        }
+.brand-link {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+ .navbar {
+            background-color: #343a40;
+        }
+.navbar .nav-link {
+            color: #ffffff;
+        }
+         .content-wrapper {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .small-box {
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .small-box:hover {
+            transform: scale(1.05);
+        }
+        .small-box .inner {
+            font-weight: bold;
+        }
+        .small-box .icon {
+            font-size: 4rem;
+            opacity: 0.2;
+        }
+        .small-box-footer {
+            font-weight: bold;
+            color: #ffffff;
+        }
+        .small-box.bg-info .small-box-footer {
+            background-color: #17a2b8;
+        }
+        .small-box.bg-success .small-box-footer {
+            background-color: #28a745;
+        }
+        .small-box.bg-warning .small-box-footer {
+            background-color: #ffc107;
+        }
+        .small-box.bg-danger .small-box-footer {
+            background-color: #dc3545;
+        }
+        .card-img-top {
+            width: 50%;
+            height: 10vw;
+            object-fit: cover;
+        }.logout-link {
+            color: #ff0000; /* Change this to your desired color */
+            text-decoration: none; /* Optional: Removes underline */
+        }
+        .logout-link:hover {
+            color: #cc0000; /* Change this to your desired hover color */
+            text-decoration: underline; /* Optional: Adds underline on hover */
+        }
+        .required-field::before {
+            content: "*";
+            color: red;
+            float: right;
+          }    .card-body .form-group {
+            margin-bottom: 0.5rem;
+        }
+        .form-control {
+            height: calc(2.25rem + 2px);
+            padding: .25rem .5rem;
+        }
+        .form-check-label {
+            margin-left: 0.3rem;
+        }
+        .add-category {
+            cursor: pointer;
+            color: white;
+        }

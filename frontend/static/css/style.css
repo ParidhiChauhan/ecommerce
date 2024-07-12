@@ -1,0 +1,73 @@
+body {
+    background-image: url('../images.jpeg'); /* Use the correct path relative to your CSS file */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9; /* Fallback color */
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.content-wrapper {
+    min-height: calc(100vh - 60px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #0f0a0a;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    bottom:0 ;
+    width: 100%;
+    bottom: 0;
+}
+/* style.css */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+
+.main-sidebar .nav-icon {
+    font-size: 1.2rem;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #090b0d;
+    color: #ffffff;
+}
+
+.product-card {
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.product-image {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.product-details {
+    padding: 20px;
+}
+.product-price {
+    color: #007bff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
