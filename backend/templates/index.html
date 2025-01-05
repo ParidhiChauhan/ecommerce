@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}Buy Fresh Fruits Online{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center my-5">
+            <h1>Solution For Fresh Fruits At Home</h1>
+            <p class="lead" >Enjoy the goodness of nature delivered to your doorstep!</p>
+            <a class="btn btn-primary btn-lg" href="{{ url_for('auth.register') }}" role="button">Sign Up Now</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                
+                <div class="card-body">
+                    <h5 class="card-title">Apple</h5>
+                    <p class="card-text">Sweet and crunchy apples, perfect for snacking.</p>
+                    <a href="#" class="btn btn-primary" style="background-color: #ff6347; border-color: #ff6347;">Apple</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                
+                <div class="card-body">
+                    <h5 class="card-title">Banana</h5>
+                    <p class="card-text">Creamy and nutritious bananas, great for smoothies.</p>
+                    <a href="#" class="btn btn-primary" style="background-color: #FFFF00; border-color: #FFFF00;">Banana</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+    
+                <div class="card-body">
+                    <h5 class="card-title">Orange</h5>
+                    <p class="card-text">Juicy and refreshing oranges, rich in vitamin C.</p>
+                    <a href="#" class="btn btn-primary" style="background-color: orange; border-color: orange;">Orange</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
